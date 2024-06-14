@@ -1,0 +1,46 @@
+.conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+.centralizar {
+    text-align: center;
+}
+
+body {
+    background-color: blue;
+    color: white;
+}
+
+.conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste conforme necessário */
+}
+
+.centralizar {
+    text-align: center;
+}
+
+input[type="text"], input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="text"]:focus, input[type="submit"]:focus {
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: navy;
+}
